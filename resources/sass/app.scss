@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Akaya+Telivigala&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+p{
+    word-spacing: 1px;
+    line-height: 1.2;
+}

@@ -1,5 +1,5 @@
 <?php
-
+use App\Integrant;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $integrants  = Integrant::all();
+
+
+
+    return view('welcome', compact('integrants'));
 });
 
 Auth::routes();

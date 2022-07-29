@@ -15,24 +15,7 @@
                 GEERS es un grupo de investigación con sede en el <a href="http://inenco.unsa.edu.ar/">INENCO</a>
             </p>
 
-            @foreach ($integrants as $integrant)
 
-
-
-            <div class="row m-2 " >
-                <div class="col">
-                    <img  width="380"  class="img-fluid m-2"  src="{{$integrant->photo}}" alt="">
-                </div>
-                <div class="col">
-                    <p class="text-center h3">{{$integrant->title}} {{$integrant->name}}</p>
-                    <p>{{$integrant->charge}}</p>
-                    <p class="text-justify font-italic">{{$integrant->description}}</p>
-                    <p class="text-center">{{$integrant->email}}</p>
-                    <p class="text-center" >{{"CV"}}</p>
-                </div>
-            </div>
-
-            @endforeach
 
         </div>
 

@@ -34,7 +34,7 @@
                         <div class="col d-flex justify-content-between">
                             <a href="/">INICIO</a>
                             <a href="{{route('integrantes.index')}}">INTEGRANTES</a>
-                            <a href="">PROYECTOS</a>
+                            <a href="{{route('proyectos.index')}}">PROYECTOS</a>
                             <a href="{{route('recursos.index')}}">RECURSOS</a>
                         </div>
                     </div>

@@ -23,15 +23,10 @@
             <div class="embed-responsive embed-responsive-1by1">
                 <video width="440px" loop="true" autoplay="autoplay" muted>
                     <source src="https://media.solcast.com/goss10min/2022-07-25/1280x1644.mp4" type="video/mp4" />
-
                   </video>
-
               </div>
         </div>
 
     </div>
-
-
-
 </div>
 @endsection

@@ -42,9 +42,9 @@
                     </div>
                     <div class="row"  >
                         <div class="col d-flex justify-content-between">
-                            <a href="">ARTICULOS</a>
+                            <a href="{{route('articulos.index')}}">ARTICULOS</a>
                             <a href="">REVISTAS</a>
-                            <a href="">CONTACTO</a>
+                            <a href="/contacto">CONTACTO</a>
                             <a href="">SERVICIOS</a>
                         </div>
                     </div>

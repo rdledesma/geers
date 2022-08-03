@@ -34,3 +34,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('/integrantes', 'IntegrantController');
 Route::resource('/recursos', 'ResourceController');
 Route::resource('/proyectos', 'ProjectController');
+Route::resource('/articulos', 'ArticleController');
+
+
+Route::get('/contacto', function () {
+    return view('contact');
+});

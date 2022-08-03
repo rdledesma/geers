@@ -2,15 +2,7 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
 
-        <div class="alert alert-primary" role="alert">
-            Nota al usuario: Cada uno de los recursos disponibles en ésta página son completamente gratuitos,
-            por errores encontrados en alguno de ellos le sugerimos por favor contactarse con el grupo
-          </div>
-
-
-    </div>
 
 
     <div class="row justify-content-center mt-5">

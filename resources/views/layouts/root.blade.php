@@ -27,7 +27,9 @@
         <nav class="m-5 border">
             <div class="row">
                 <div class="col-lg-4 col-sm-12 ">
-                    <h1>GEERS</h1>
+
+                <a href="/"><img src="images/geers.png"  alt="logogeers" width="150"  class="img-fluid m-2" ></a>
+
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="row">
@@ -58,7 +60,7 @@
 
         <footer class="bg-secondary">
 
-            <img  width="150"  class="img-fluid m-2" src="http://inenco.unsa.edu.ar/wp-content/uploads/2019/06/blancologoinenco.png" alt="">
+            <img  width="150"  class="img-fluid m-2" src="images/logoinenco.png" alt="logoinenco">
             <p class="text-center text-light">Rubén D. Ledesma</p>
             <p class="text-center text-light "><small>Todos los derechos reservados</small></p>
         </footer>

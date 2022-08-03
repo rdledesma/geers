@@ -12,7 +12,7 @@
                     <div class="col">
                         <p class="text-center h3">{{$project->title}}</p>
                     </div>
-                    <div class="col-10">
+                    <div class="col-8">
 
                         <p class="text-justify font-italic">{{$project->description}}</p>
 

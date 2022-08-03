@@ -14,7 +14,10 @@ class ResourceController extends Controller
      */
     public function index()
     {
-        $resources = Resource::all();
+        $resources = Resource::orderBy('title')->get();
+
+
+
         return view('resources', compact('resources'));
     }
 

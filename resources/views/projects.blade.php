@@ -16,7 +16,7 @@
 
                         <p class="text-justify font-italic">{{$project->description}}</p>
 
-                        <p class="text-center" >  <a  href="{{$project->link}}">Ir al recurso</a> </p>
+                        <p class="text-center" >  <a  href="{{$project->link}}">Ir al proyecto</a> </p>
                     </div>
                 </div>
 

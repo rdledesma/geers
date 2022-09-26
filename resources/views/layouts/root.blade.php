@@ -61,7 +61,9 @@
         <footer class="bg-secondary">
 
             <img  width="150"  class="img-fluid m-2" src="images/logoinenco.png" alt="logoinenco">
+
             <p class="text-center text-light">Rubén D. Ledesma</p>
+            <p class="text-center text-light "><small>rdledesma1995@gmail.com</small></p>
             <p class="text-center text-light "><small>Todos los derechos reservados</small></p>
         </footer>
 

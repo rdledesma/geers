@@ -16,7 +16,7 @@
 
                         <p class="text-justify font-italic">{{$article->description}}</p>
 
-                        <p class="text-center" >  <a  href="{{$article->link}}">Ir al recurso</a> </p>
+                        <p class="text-center" >  <a  href="{{$article->link}}">Ir al artículo</a> </p>
                     </div>
                 </div>
 

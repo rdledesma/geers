@@ -25,7 +25,7 @@ class IntegrantSeeder extends Seeder
             'name' => 'Hugo Pablo Saldaño ',
             'email'=> 'hpablohugo@gmail.com',
             'title' => 'Dr.',
-            'charge' => 'Investigador .... - Instituto de Investigaciones en Energia No Convencional (INENCO) - CONICET',
+            'charge' => 'Investigador Asistente de CONICET- Instituto de Investigaciones en Energia No Convencional (INENCO), UNSa ',
             'cv' => 'cv-hugo.pdf',
             'photo' => 'https://media-exp1.licdn.com/dms/image/C5603AQEt_7oKGaL7Lg/profile-displayphoto-shrink_800_800/0/1517482228639?e=1664409600&v=beta&t=fRRaMsgzOwTmopYf-p8tJqSm2lb6BaNXw0y0budnA34',
             'description' => 'eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet'

@@ -18,7 +18,7 @@
                     <p>{{$integrant->charge}}</p>
                     <p class="text-justify font-italic">{{$integrant->description}}</p>
                     <p class="text-center">{{$integrant->email}}</p>
-                    <p class="text-center" >{{"CV"}}</p>
+                    <p class="text-center" >{{"cambio de cv"}}</p>
                 </div>
             </div>
 

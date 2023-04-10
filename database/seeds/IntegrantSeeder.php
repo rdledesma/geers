@@ -18,7 +18,7 @@ class IntegrantSeeder extends Seeder
             'charge' => 'Investigador Adjunto CIC- Instituto de Investigaciones en Energia No Convencional (INENCO) - CONICET',
             'cv' => 'cv-german.pdf',
             'photo' => 'images/german.jpg',
-            'description' => 'eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet'
+            'description' => 'Modificar datos de aqui'
         ]);
 
         DB::table('integrants')->insert([

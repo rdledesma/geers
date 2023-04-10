@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-12 ">
 
-                <a href="/"><img src="images/geers.png"  alt="logogeers" width="150"  class="img-fluid m-2" ></a>
+                <a href="/"><img src="images/GEERS_1.png"  alt="logogeers" width="150"  class="img-fluid m-2" ></a>
 
                 </div>
                 <div class="col-lg-6 col-sm-12">

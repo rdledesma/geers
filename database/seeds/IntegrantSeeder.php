@@ -17,8 +17,9 @@ class IntegrantSeeder extends Seeder
             'title' => 'Dr.',
             'charge' => 'Investigador Adjunto CIC- Instituto de Investigaciones en Energia No Convencional (INENCO) - CONICET',
             'cv' => 'cv-german.pdf',
-            'photo' => 'images/german.jpg',
-            'description' => 'Modificar datos de aqui'
+            'photo' => 'images/GermanSalazar2.jpg',
+            'description' => 'Licenciado en Física (1999), Especialista en Energías Renovables (2007), Doctor en Ciencias Área Energías Renovables (2009), posgrado en Energías Renovables (2016). Es investigador Adjunto de CONICET y docente regular de la Universidad Nacional de Salta. Es investigador senior en análisis de valores de radiación solar, con foco en sitios de altitud. Ha publicado 14 artículos internacionales (en revistas de alto impacto) sobre esta temática y más de 35 artículos en congresos nacionales y regionales. Posee experiencia y conocimientos sólidos en lo que a implementación de dispositivos de medición electrónicos/automáticos se refiere, habiendo instalado 5 estaciones radiométricas en la región de Salta-Jujuy. Es responsable por CONICET del Convenio entre INTA y CONICET para el mantenimiento de las estaciones radiométricas de la red ENARSOL.
+            '
         ]);
 
         DB::table('integrants')->insert([
@@ -27,7 +28,7 @@ class IntegrantSeeder extends Seeder
             'title' => 'Dr.',
             'charge' => 'Investigador .... - Instituto de Investigaciones en Energia No Convencional (INENCO) - CONICET',
             'cv' => 'cv-hugo.pdf',
-            'photo' => 'https://media-exp1.licdn.com/dms/image/C5603AQEt_7oKGaL7Lg/profile-displayphoto-shrink_800_800/0/1517482228639?e=1664409600&v=beta&t=fRRaMsgzOwTmopYf-p8tJqSm2lb6BaNXw0y0budnA34',
+            'photo' => 'images/Hugo-Saldano2.jpg',
             'description' => 'eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet'
         ]);
 
@@ -35,9 +36,9 @@ class IntegrantSeeder extends Seeder
             'name' => 'Marta Roxana Laspiur',
             'email'=> 'roxslaspiur@gmail.com',
             'title' => 'Lic.',
-            'charge' => 'Becaria - Instituto de Investigaciones en Energia No Convencional (INENCO) - AAAAAAA',
+            'charge' => 'Becaria - Instituto de Investigaciones en Energia No Convencional (INENCO) - AGENCIA',
             'cv' => 'cv-roxana.pdf',
-            'photo' => 'https://lh3.googleusercontent.com/a-/AFdZucqJMaYSAwIs_CurtntOx269iajNn_wUkAPIY_34=s272-p-k-rw-no',
+            'photo' => 'images/ROXANA-LASPIUR2.jpg',
             'description' => 'eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet'
         ]);
 
@@ -47,8 +48,30 @@ class IntegrantSeeder extends Seeder
             'title' => 'Lic.',
             'charge' => 'Becario - Instituto de Investigaciones en Energia No Convencional (INENCO) - CONICET',
             'cv' => 'cv-dario.pdf',
-            'photo' => 'https://lh3.googleusercontent.com/a-/AFdZucqKoYU1tZ7hYxdMH0TMS__R2A_tQrbCuK5Qk77Q4g=s288-p-rw-no',
-            'description' => 'eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet'
+            'photo' => 'images/RubenLedesma2.jpg',
+            'description' => 'Licenciado en Análisis de Sistemas (2019) por la Universidad Nacional de Salta. Es becario doctoral Temas Estratégicos de CONICET (2020). Su director es el Dr. Germán Salazar y su Codirectora es la Dra. Olga de Castro Vilela, ambos participantes de este proyecto. Ha desarrollado una app para celular con los cálculos de Geometría Solar (Calcusol). Su tema de Tesis está directamente relacionado con el tema de este proyecto. 
+            '
+        ]);
+
+        DB::table('integrants')->insert([
+            'name' => 'Diego Antonio Salve',
+            'email'=> 'salve.diego@inta.gob.ar',
+            'title' => 'Ing.',
+            'charge' => 'Becario - INTA IPAF - INTA',
+            'cv' => 'cv-dario.pdf',
+            'photo' => 'images/DiegoSalve.jpg',
+            'description' => 'Ingeniero en Recursos Naturales y Medio Ambiente (2017). Becario Doctoral Temas Estratégicos del INENCO (2018) con lugar de trabajo en el Instituto de Investigación y Desarrollo Tecnológico para la Agricultura Familiar Región NOA (INTA IPAF NOA). Evalúa la eficiencia en el uso de la radiación solar del cultivo de maíz andino en sitios de altura, en un gradiente altitudinal comprendido entre los 1000 y los 3500 metros sobre el nivel del mar, contrastando densidades de siembra y genotipos empleados en la región.'
+        ]);
+
+        DB::table('integrants')->insert([
+            'name' => 'Constanza Belén Lopez Ruiz',
+            'email'=> 'conyblopezruiz@gmail.com',
+            'title' => 'Lic.',
+            'charge' => 'CPA - Instituto de Investigaciones en Energia No Convencional (INENCO) - CONICET',
+            'cv' => 'cv-cony.pdf',
+            'photo' => 'images\Cony2.jpg',
+            'description' => ' Licenciada en Energías Renovables por la Universidad Nacional de Salta (2020). Profesional Asistente en la carrera CPA de CONICET con lugar de trabajo en el INENCO (2022). Su trabajo es el mantenimiento de las estaciones meteorológicas del INENCO y de aquellas que por convenios son de interés del INENCO. Tiene publicaciones en actas de Congreso.
+            '
         ]);
 
     }

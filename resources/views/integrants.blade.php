@@ -11,7 +11,7 @@
 
             <div class="row m-2 " >
                 <div class="col">
-                    <img  width="380"  class="img-fluid m-2"  src="{{$integrant->photo}}" alt="">
+                    <img  width="300" height="200"  class="img-fluid m-2 "  src="{{$integrant->photo}}" alt="">
                 </div>
                 <div class="col">
                     <p class="text-center h3">{{$integrant->title}} {{$integrant->name}}</p>

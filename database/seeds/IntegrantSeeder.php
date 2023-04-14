@@ -26,10 +26,10 @@ class IntegrantSeeder extends Seeder
             'name' => 'Hugo Pablo Saldaño ',
             'email'=> 'hpablohugo@gmail.com',
             'title' => 'Dr.',
-            'charge' => 'Investigador .... - Instituto de Investigaciones en Energia No Convencional (INENCO) - CONICET',
+            'charge' => 'Investigador Asistente de CONICET - Instituto de Investigaciones en Energia No Convencional (INENCO) - CONICET',
             'cv' => 'cv-hugo.pdf',
             'photo' => 'images/Hugo-Saldano2.jpg',
-            'description' => 'eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet'
+            'description' => 'Doctor en Astronomía. Licenciado y doctorado en la Facultad de Matemática, Astronomía y Física (FaMAF) de la Universidad Nacional de Córdoba (UNC). Área de Investigación: Formación Estelar en la Vía Láctea y en galaxias irregulares de baja metalicidad. Experiencia en la reducción y análisis de imágenes astronómicas en el infrarrojo y radio de los telescopios Herschel, APEX y ALMA. Miembro del grupo científico para el telescopio LLAMA.'
         ]);
 
         DB::table('integrants')->insert([

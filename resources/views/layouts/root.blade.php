@@ -25,28 +25,28 @@
     <div id="app" class="container">
 
 
-        <nav class="m-5 border">
+        <nav class="m-2 border">
             <div class="row">
                 <div class="col-lg-4 col-sm-12 ">
 
                 <a href="/"><img src="images/GEERS_1.png"  alt="logogeers" width="150"  class="img-fluid m-2" ></a>
 
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12 align-items-center" >
                     <div class="row">
                         <div class="col d-flex justify-content-between">
-                            <a href="/">INICIO</a>
-                            <a href="{{route('integrantes.index')}}">INTEGRANTES</a>
-                            <a href="{{route('proyectos.index')}}">PROYECTOS</a>
-                            <a href="{{route('recursos.index')}}">RECURSOS</a>
+                            <a href="/"><strong>INICIO</strong></a>
+                            <a href="{{route('integrantes.index')}}"><strong>INTEGRANTES</strong></a>
+                            <a href="{{route('proyectos.index')}}"><strong>PROYECTOS</strong></a>
+                            <!--<a href="{{route('recursos.index')}}">RECURSOS</a>-->
                         </div>
                     </div>
                     <div class="row"  >
                         <div class="col d-flex justify-content-between">
-                            <a href="{{route('articulos.index')}}">ARTICULOS</a>
-                            <a href="">REVISTAS</a>
-                            <a href="/contacto">CONTACTO</a>
-                            <a href="">SERVICIOS</a>
+                            <a href="{{route('articulos.index')}}"><strong>ARTICULOS</strong></a>
+                            <!--<a href="">REVISTAS</a>-->
+                            <a href="/contacto"><strong>CONTACTO</strong></a>
+                            <a href=""><strong>SERVICIOS</strong></a>
                         </div>
                     </div>
                 </div>
@@ -59,14 +59,45 @@
         </main>
 
 
-        <footer class="bg-secondary">
+         <!--<div class="bg-secondary">
 
-            <img  width="150"  class="img-fluid m-2" src="images/logoinenco.png" alt="logoinenco">
+            <div class="row">
+                
+                <div class="col ml-auto bg-primary ">
+                    <img  src="images/logoinenco.png"  alt="logogeers" width="150"  class="img-fluid m-2">
+                </div>
+                <div class="col mr-auto">
+                    <p class="text-center text-light">Rubén D. Ledesma - Constanza Belén Lopez Ruiz</p>
+                    <p class="text-center text-light "><small>rdledesma1995@gmail.com</small></p>
+                <p class="text-center text-light "><small>Todos los derechos reservados</small></p>
+                </div>
+            </div>
+           <div class="row">
+                    <div class="col">left</div>
+                    <div class="col text-right">inline content needs to be right aligned</div>
+                </div>
+                <div class="row">
+                    <div class="col">left</div>
+                    <div class="col">
+                        <div class="float-left">element needs to be right aligned</div>
+                </div>-->
+                <footer class="bg-secondary">
+                <div class="row align-items-center">
+                    <div class="col-3">
+                        <img src="images/logoinenco.png"  alt="logogeers" width="150"  class="img-fluid m-2">
+                    </div>
+                        <div class="col-9 d-flex justify-content-end">
+                        <p class="text-center text-light">Rubén D. Ledesma - Constanza Belén Lopez Ruiz</p>
+                        <p class="text-center text-light "><small>rdledesma1995@gmail.com</small></p>
+                        <p class="text-center text-light "><small>Todos los derechos reservados</small></p>
+                    </div>
+                </div>
+            </footer>
 
-            <p class="text-center text-light">Rubén D. Ledesma</p>
-            <p class="text-center text-light "><small>rdledesma1995@gmail.com</small></p>
-            <p class="text-center text-light "><small>Todos los derechos reservados</small></p>
-        </footer>
+
+
+</div>
+</div>
 
     </div>
 

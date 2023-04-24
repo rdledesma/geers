@@ -40,3 +40,11 @@ Route::resource('/articulos', 'ArticleController');
 Route::get('/contacto', function () {
     return view('contact');
 });
+
+
+
+
+Route::get('/servicios', function () {
+    return view('service');
+});
+

@@ -39,7 +39,8 @@ class IntegrantSeeder extends Seeder
             'charge' => 'Becaria - Instituto de Investigaciones en Energia No Convencional (INENCO) - AGENCIA',
             'cv' => 'cv-roxana.pdf',
             'photo' => 'images/ROXANA-LASPIUR2.jpg',
-            'description' => 'eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet'
+            'description' => ' Licenciada en Física, egresada de la Universidad Nacional de Salta. JTP de la cátedra Física II ( Sede Regional Metán-Rosario de la Frontera. UNSa). Actualmente doctorando en Ciencias (Área de Energías Renovables).
+            Sólida formación en análisis de bases de datos meteorológicos y de radiación solar, conocimientos en modelos de radiación solar de día claro y transferencia de calor. Manejo del lenguaje Python  y de software de CFD (Computational Fluid Dynamics). '
         ]);
 
         DB::table('integrants')->insert([

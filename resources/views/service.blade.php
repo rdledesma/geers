@@ -14,7 +14,7 @@
             de la energía solar en una región o país determinado y tomar decisiones informadas sobre su uso y 
             desarrollo.</p>
 
-           <p><strong>Calibracion de  de piranómetros </strong></p>
+           <p><strong>Calibracion de piranómetros </strong></p>
            <p><strong>Evaluacion del recurso solar en zona de interes</strong></p>
            <p><strong>Asesoramiento profesional</strong></p>        
             

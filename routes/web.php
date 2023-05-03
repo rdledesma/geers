@@ -48,3 +48,10 @@ Route::get('/servicios', function () {
     return view('service');
 });
 
+Route::get('/tesis', function () {
+    return view('tesis');
+});
+
+Route::get('/mapas', function () {
+    return view('maps');
+});

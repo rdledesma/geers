@@ -37,7 +37,8 @@
                         <div class="col d-flex justify-content-between" >
                             <a href="/"><strong>INICIO</strong></a>
                             <a href="{{route('integrantes.index')}}"><strong>INTEGRANTES</strong></a>
-                            <a href="{{route('proyectos.index')}}"><strong>PROYECTOS</strong></a>
+                            <a href="{{route('proyectos.index')}}"><strong>PROYECTOS Y CONVENIOS</strong></a>
+                            <a href="/tesis"><strong>TESIS</strong></a>
                             <!--<a href="{{route('recursos.index')}}">RECURSOS</a>-->
                         </div>
                     </div>
@@ -47,6 +48,7 @@
                             <!--<a href="">REVISTAS</a>-->
                             <a href="/contacto"><strong>CONTACTO</strong></a>
                             <a href="/servicios"><strong>SERVICIOS</strong></a>
+                            <a href="/maps"><strong>MAPAS</strong></a>
                         </div>
                     </div>
                 </div>
